@@ -85,10 +85,17 @@ button
 .plan-content
 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 50px;
     max-width: 70%;
     margin: auto;
 
+}
+.content-item
+{
+    text-align: center;
+    font-size: large;
 }
 
 /* Footer style */
@@ -98,9 +105,28 @@ footer
     background-color: #000;
     color: #fff;
     display: flex;
-    padding: 30px;
+    gap: 250px;
+    padding: 80px;
+    margin-top: 30px;
+    justify-content: center;
 }
+.future-content
+{
 
+}
+.future-content h3
+{
+    font-size: 45px;
+}
+.future-content p
+{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.future-content > div img
+{
+    margin: 8px;
+}
 .subscribe-content
 {
     padding: 30px;
@@ -108,5 +134,18 @@ footer
 .subscribe-content h4
 {
     font-size: 25px;
-    
+
+}
+.subscribe-content input
+{
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.subscribe-content button
+{
+    background-color: #005FAC;
+    color: #fff;
+    font-size: 20px;
 }
