@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*
+{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Design Start */
+header
+{
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-content
+{
+    text-align: right;
+    padding: 200px;
+    color: white;
+}
+.header-content h2
+{
+    font-size: 3.8em;
+    font-weight: 800;
+}
+.header-content p{
+    font-size: 1.3em;
+    margin: 2em 0;
+}
+button
+{
+    padding: 15px 25px;
+    color: #005FAC;
+    font-weight: 800;
+    font-size: x-large;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Flex style */
+
+/* .person, .plan-content, footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Main section style */
+
+.person
+{
+    display: flex;
+    align-items: center;
+    padding: 50px 150px;
+}
+.person-content
+{
+    padding: 0 80px;
+    margin-left: 50px;
+}
+.person-content h2
+{
+    font-weight: 600;
+    font-size: 40px;
+}
+.person-content p
+{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.person-content ul li
+{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.plan h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.plan-content
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+
+}
+
+/* Footer style */
+
+footer
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+}
+
+.subscribe-content
+{
+    padding: 30px;
+}
+.subscribe-content h4
+{
+    font-size: 25px;
+    
+}
