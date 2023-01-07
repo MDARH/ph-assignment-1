@@ -27,7 +27,7 @@ header
     font-size: 1.3em;
     margin: 2em 0;
 }
-button
+.header-content > button
 {
     padding: 15px 25px;
     color: #005FAC;
@@ -97,8 +97,34 @@ button
     text-align: center;
     font-size: large;
 }
-
-/* Footer style */
+/* Special part started */
+.call-now
+{
+    background-image: linear-gradient(90deg, rgba(0,95,172,1), rgba(0,95,172,.1)), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+    width: 630px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.call-now h4 
+{
+    color:#fff;
+    font-size: 30px;
+}
+.call-now button
+{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+/* Footer style started */
 
 footer
 {
@@ -109,10 +135,6 @@ footer
     padding: 80px;
     margin-top: 30px;
     justify-content: center;
-}
-.future-content
-{
-
 }
 .future-content h3
 {
@@ -142,10 +164,14 @@ footer
     padding: 10px 20px;
     margin: 10px 0;
     font-size: 20px;
+    border-radius: 8px;
 }
-.subscribe-content button
+.subscribe-content > button
 {
     background-color: #005FAC;
     color: #fff;
     font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
 }
